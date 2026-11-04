@@ -1,4 +1,4 @@
-**#Experiment 1: EDA in IPL Dataset**
+**Experiment 1: EDA in IPL Dataset**
 
 **Aim:**
 
