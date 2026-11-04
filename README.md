@@ -104,8 +104,9 @@ plt.show()
 
 
 **5.Toss Decisions (Univariate Analysis)**
-  Count toss decision preferences (bat vs field).
-  Plot results using a bar chart.
+
+  *Count toss decision preferences (bat vs field).
+  Plot results using a bar chart.*
   
 
 **Program**
