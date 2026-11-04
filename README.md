@@ -196,9 +196,9 @@ print("=" * 60)
 <img width="1037" height="772" alt="image" src="https://github.com/user-attachments/assets/d8e57f53-05ed-4f6e-b428-bbd3f271f2e7" />
 
 
- ** Result**
+***Result***
+
+
   This experiment is executed successfully
-
-
 
 Highlight the stadiums hosting maximum matches.
