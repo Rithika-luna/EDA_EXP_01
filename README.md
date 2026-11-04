@@ -1,13 +1,18 @@
 **#Experiment 1: EDA in IPL Dataset**
+
 **Aim:**
+
 To perform Exploratory Data Analysis (EDA) on the IPL matches dataset and derive insights about matches per season, winning teams, toss decisions, and top venues.
 
+
 **Algorithm / Procedure:**
+
 
 **1.Import Libraries**
 
   *Import pandas for data handling.
   Import matplotlib and seaborn for visualization.*
+
   
 **Program**
 
@@ -23,6 +28,8 @@ import seaborn as sns
   Use pd.read_csv() to load the IPL matches dataset.
   Check dataset shape using .shape.
   View first 5 rows using .head().
+
+  
 **Program**
 
 ```
@@ -32,16 +39,21 @@ print("Shape of dataset:", df.shape)
 df.head()
 
 ```
+
 **Output**
 
 <img width="1082" height="543" alt="image" src="https://github.com/user-attachments/assets/408073ba-4748-488c-bcfe-86ee143bc2a7" />
 
 
 **3.Matches per Season (Univariate Analysis)**
+
+
   Group data by season and count matches.
   Plot a bar chart to visualize growth/decline in matches.
+  
 
 **Program**
+
 
 ```
 matches_per_season = df['season'].value_counts().sort_index()
@@ -57,14 +69,18 @@ plt.xticks(rotation=45)
 plt.show()
 
 ```
+
 **Output**
 
 <img width="1040" height="756" alt="image" src="https://github.com/user-attachments/assets/debe4f5e-3a53-4dc4-9ef7-4db7428ccdd0" />
 
 
 **4.Top Winning Teams (Univariate Analysis)**
+
   Use value_counts() on the winner column.
   Plot top 5 winning teams in a bar chart.
+
+  
 **Program**
 ```
 top_teams = df['winner'].value_counts().head(5)
@@ -80,6 +96,7 @@ plt.xticks(rotation=45)
 plt.show()
 
 ```
+
 **Output**
 
 <img width="1036" height="702" alt="image" src="https://github.com/user-attachments/assets/dc81c626-f93e-46a9-bc03-3b994fdf2da9" />
@@ -89,6 +106,7 @@ plt.show()
 **5.Toss Decisions (Univariate Analysis)**
   Count toss decision preferences (bat vs field).
   Plot results using a bar chart.
+  
 
 **Program**
 
@@ -112,8 +130,11 @@ plt.show()
 <img width="1032" height="527" alt="image" src="https://github.com/user-attachments/assets/df8646e7-8f9e-451d-8e90-f0110be69841" />
 
 **6.Top Venues (Univariate Analysis)**
+
+
   Count matches per venue.
   Display top 5 venues with a horizontal bar chart.
+
 
 **Program**
 
@@ -138,6 +159,8 @@ plt.show()
 <img width="1045" height="717" alt="image" src="https://github.com/user-attachments/assets/3fdec997-29f0-42e8-a55a-034ac109cc69" />
 
 **7.Draw Insights**
+
+
   Observe patterns in toss decisions.
   Identify teams with consistent winning trends.
   
