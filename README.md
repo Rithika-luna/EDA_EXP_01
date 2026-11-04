@@ -25,11 +25,10 @@ import seaborn as sns
 
 
 **2.Load Dataset**
-*
-  Use pd.read_csv() to load the IPL matches dataset.
+
+  *Use pd.read_csv() to load the IPL matches dataset.
   Check dataset shape using .shape.
-  View first 5 rows using .head().
-*
+  View first 5 rows using .head().*
   
 **Program**
 
