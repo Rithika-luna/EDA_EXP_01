@@ -5,8 +5,8 @@ To perform Exploratory Data Analysis (EDA) on the IPL matches dataset and derive
 **Algorithm / Procedure:**
 
 **1.Import Libraries**
-  Import pandas for data handling.
-  Import matplotlib and seaborn for visualization.
+  *Import pandas for data handling.
+  Import matplotlib and seaborn for visualization.*
 **Program**
 
 ```
